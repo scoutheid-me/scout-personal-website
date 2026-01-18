@@ -1,0 +1,7 @@
+{
+  "name": "Scout - Staff Mechanical Engineer",
+  "description": "Portfolio website for a Staff Mechanical Engineer focused on product design, mass production, and technical leadership.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
