@@ -34,7 +34,8 @@ const AppContent: React.FC = () => {
             <Link to="/about" className="hover:text-white transition-colors">About</Link>
             <a href="#contact" className="hover:text-white transition-colors">Contact</a>
             <a
-              href="/resume.pdf"
+              href="/Scout_Heid_Resume_2026.pdf"
+              download="Scout_Heid_Resume_2026.pdf"
               className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-white hover:bg-white/10 transition-all"
             >
               Resume

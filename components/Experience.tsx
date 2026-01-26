@@ -52,28 +52,29 @@ export const Experience: React.FC = () => {
     <section id="experience" className="py-24 px-6 relative z-10 bg-neutral-900/30">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
-            <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
-                    Proven <span className="text-orange-500">Track Record</span>
-                </h2>
-                <p className="text-neutral-400">Delivering excellence at world-class organizations.</p>
-            </div>
-            <a 
-                href="/resume.pdf" // Placeholder
-                className="text-white border-b border-orange-500 pb-1 hover:text-orange-500 transition-colors flex items-center gap-2"
-            >
-                Download Full Resume <ArrowRight size={16}/>
-            </a>
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
+              Proven <span className="text-orange-500">Track Record</span>
+            </h2>
+            <p className="text-neutral-400">Delivering excellence at world-class organizations.</p>
+          </div>
+          <a
+            href="/Scout_Heid_Resume_2026.pdf" // Updated link
+            download="Scout_Heid_Resume_2026.pdf"
+            className="text-white border-b border-orange-500 pb-1 hover:text-orange-500 transition-colors flex items-center gap-2"
+          >
+            Download Full Resume <ArrowRight size={16} />
+          </a>
         </div>
 
         <div className="space-y-8">
           {experiences.map((exp, idx) => (
-            <div 
+            <div
               key={idx}
               className="group relative bg-neutral-900 border border-neutral-800 rounded-2xl p-8 hover:border-orange-500/50 transition-colors duration-500"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl pointer-events-none" />
-              
+
               <div className="relative flex flex-col md:flex-row gap-8">
                 {/* Logo Section */}
                 <div className="flex-shrink-0">
@@ -92,7 +93,7 @@ export const Experience: React.FC = () => {
                   <p className="text-neutral-300 mb-6 leading-relaxed">
                     {exp.description}
                   </p>
-                  
+
                   {/* Achievements List */}
                   <ul className="space-y-2">
                     {exp.achievements.map((item, i) => (
@@ -102,11 +103,11 @@ export const Experience: React.FC = () => {
                       </li>
                     ))}
                   </ul>
-                  
+
                   <div className="mt-6 pt-6 border-t border-neutral-800 flex justify-end">
-                     <a href={exp.link} target="_blank" rel="noopener noreferrer" className="text-xs font-bold uppercase tracking-wider text-neutral-500 hover:text-white transition-colors">
-                        Visit Company Website
-                     </a>
+                    <a href={exp.link} target="_blank" rel="noopener noreferrer" className="text-xs font-bold uppercase tracking-wider text-neutral-500 hover:text-white transition-colors">
+                      Visit Company Website
+                    </a>
                   </div>
                 </div>
               </div>
