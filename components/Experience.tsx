@@ -4,9 +4,23 @@ import { ExperienceItem } from '../types';
 
 const experiences: ExperienceItem[] = [
   {
+    company: "Halo Industries",
+    role: "Staff Mechanical Engineer",
+    period: "2023 - Present",
+    description: "DRI for 75% of all motion systems in a new generation of tools, utilizing various pneumatic, valves, solenoids, and sensors.",
+    achievements: [
+      "DRI for a dynamic 8 motor calibration light bridge that aligns high powered lasers to micron precision.",
+      "Built a high precision alignment and laser testing fixture for a multi-beam laser from concept to testing in 8 weeks.",
+      "Designed in a safety interlock system and tested with various high precision measurement tools, including Keyence."
+    ],
+    logo: Activity,
+    color: "text-amber-400",
+    link: "https://www.halo-industries.com/"
+  },
+  {
     company: "Apple",
     role: "Product Design Lead",
-    period: "2019 - Present",
+    period: "2019 - 2023",
     description: "Leading the enclosure design for next-gen Mac architecture. Responsible for thermal integration and structural integrity.",
     achievements: [
       "Reduced chassis weight by 18% using novel alloy composition.",
@@ -30,20 +44,6 @@ const experiences: ExperienceItem[] = [
     logo: ShoppingCart,
     color: "text-blue-400",
     link: "https://www.amazon.com"
-  },
-  {
-    company: "Halo",
-    role: "Mechanical Engineer",
-    period: "2014 - 2016",
-    description: "Developed wearable fitness trackers. Owned the entire mechanical BOM from concept to mass production.",
-    achievements: [
-      "Achieved IP68 water resistance rating with novel adhesive stack-up.",
-      "Optimized antenna keep-out zones for reliable Bluetooth connectivity.",
-      "Shipped 2M+ units with <0.1% mechanical field failure rate."
-    ],
-    logo: Activity,
-    color: "text-amber-400",
-    link: "https://www.haloneuro.com"
   }
 ];
 
