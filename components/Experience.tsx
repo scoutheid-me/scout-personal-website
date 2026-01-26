@@ -18,6 +18,21 @@ const experiences: ExperienceItem[] = [
     link: "https://www.halo-industries.com/"
   },
   {
+    company: "Amazon Lab126",
+    role: "Product Design Engineer",
+    period: "2019 - 2023",
+    description: "Lead product design engineer for dynamic motion sub-assemblies on Advanced Products. DRI for 15+ parts and 5+ sub-assemblies across robotics platforms.",
+    achievements: [
+      "Led design and DRI ownership for multiple functional and noise reduction parts in the Astro pan sub-system, interfacing with China DFM, IQC, and OQC.",
+      "Designed custom robotics gearmotors for high and low torque actuators featuring custom torque and force sensing solutions.",
+      "Managed and mentored Summer 2022 interns across PD, EE, and Controls; ideated and ran the intern presentation program.",
+      "Drove in-depth testing and investigation for materials, adhesives, and foams utilizing SIM, FEA, and TA analysis."
+    ],
+    logo: ShoppingCart,
+    color: "text-blue-400",
+    link: "https://www.amazon.com"
+  },
+  {
     company: "Apple",
     role: "Product Design Lead",
     period: "2019 - 2023",
@@ -30,20 +45,6 @@ const experiences: ExperienceItem[] = [
     logo: Apple,
     color: "text-neutral-200",
     link: "https://www.apple.com"
-  },
-  {
-    company: "Amazon",
-    role: "Senior Hardware Engineer",
-    period: "2016 - 2019",
-    description: "Core member of the Prime Air drone delivery team. Focused on propulsion systems and landing gear durability.",
-    achievements: [
-      "Designed impact-resistant landing gear utilizing localized lattice structures.",
-      "Improved motor efficiency by 7% through custom stator housing design.",
-      "Led failure analysis (FA) for field test units."
-    ],
-    logo: ShoppingCart,
-    color: "text-blue-400",
-    link: "https://www.amazon.com"
   }
 ];
 
