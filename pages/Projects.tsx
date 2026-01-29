@@ -11,10 +11,10 @@ const projects = [
         tags: ["Robotics", "Python", "Mechatronics", "Arduino", "CNC Design"]
     },
     {
-        title: "Robotic Arm Prototype",
-        description: "Developed a 6-axis robotic arm prototype for automated assembly lines using 3D printed components and stepper motors.",
-        date: "2022",
-        tags: ["Mechatronics", "Python", "Prototyping"]
+        title: "VelociRoACH: Biomimetic Modular Transmission",
+        description: "Research Lead under Professor Ronald Fearing at the Biomimetic Millisystems Lab. Redesigned the VelociRoACH robot with an interchangeable modular transmission and pioneered a precision molding/casting process for polyurethane gears.",
+        date: "2014 - 2016",
+        tags: ["Biomimetics", "Mechanical Research", "Precision Manufacturing", "Product Design", "Robotics"]
     },
     {
         title: "Self-Stabilizing RC Plane",
