@@ -1,5 +1,5 @@
 import React from 'react';
-import { Apple, ShoppingCart, Activity, ArrowRight } from 'lucide-react';
+import { Apple, ShoppingCart, Activity, ArrowRight, Cpu } from 'lucide-react';
 import { ExperienceItem } from '../types';
 
 const experiences: ExperienceItem[] = [
@@ -46,6 +46,20 @@ const experiences: ExperienceItem[] = [
     logo: Apple,
     color: "text-neutral-200",
     link: "https://www.apple.com"
+  },
+  {
+    company: "Curtis Instruments",
+    role: "Device & System Architecture",
+    period: "May 2016 – Aug 2016",
+    description: "Architected and implemented a modular software framework for simultaneous control and data acquisition of 10+ hardware devices via a dynamic LabVIEW interface.",
+    achievements: [
+      "Engineered a custom variation of the Actor Framework using asynchronous calls and user events to optimize multi-device throughput and system stability.",
+      "Developed hardware wrappers and communication drivers to streamline command integrity across legacy and modern devices (GPIB, CANopen, VISA).",
+      "Executed end-to-end validation on high-power automotive controllers using Dynamometers and specialized lab instrumentation to ensure sub-millisecond response times."
+    ],
+    logo: Cpu,
+    color: "text-purple-400",
+    link: "https://www.curtisinstruments.com/"
   }
 ];
 
