@@ -21,11 +21,11 @@ export const About: React.FC = () => {
                     <div className="space-y-4">
                         <div className="flex items-center gap-3 text-neutral-400">
                             <MapPin size={20} className="text-orange-500" />
-                            <span>San Francisco, CA</span>
+                            <span>San Jose, California</span>
                         </div>
                         <div className="flex items-center gap-3 text-neutral-400">
                             <Mail size={20} className="text-orange-500" />
-                            <a href="mailto:scout@example.com" className="hover:text-white transition-colors">scout@example.com</a>
+                            <a href="mailto:scoutheid95@gmail.com" className="hover:text-white transition-colors">scoutheid95@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -52,15 +52,30 @@ export const About: React.FC = () => {
                                 <Award size={20} />
                             </div>
                             <h3 className="font-semibold text-white">Education</h3>
-                            <p className="text-sm text-neutral-400">B.S. Mechanical Engineering</p>
-                            <p className="text-xs text-neutral-500">University of California, Berkeley</p>
+                            <div className="space-y-4">
+                                <div className="space-y-1">
+                                    <p className="text-sm text-neutral-400 font-medium">University of California, Berkeley (2018)</p>
+                                    <p className="text-xs text-neutral-500">Master’s of Engineering (MEng), Mechanical Engineering</p>
+                                    <p className="text-xs text-neutral-600 italic">Focus: Autonomous Vehicle Controls + Path Planning</p>
+                                </div>
+                                <div className="space-y-1">
+                                    <p className="text-sm text-neutral-400 font-medium">University of California, Berkeley</p>
+                                    <p className="text-xs text-neutral-500">B.S. Mechanical Engineering | Minor in EECS</p>
+                                    <p className="text-xs text-neutral-600 italic">Focus: Product Design + Robotics/Manipulation</p>
+                                </div>
+                            </div>
                         </div>
                         <div className="p-6 bg-neutral-900/50 border border-neutral-800 rounded-xl space-y-2">
                             <div className="w-10 h-10 bg-orange-500/10 rounded-lg flex items-center justify-center text-orange-500 mb-4">
                                 <Award size={20} />
                             </div>
                             <h3 className="font-semibold text-white">Certifications</h3>
-                            <p className="text-sm text-neutral-400">Certified SolidWorks Professional (CSWP)</p>
+                            <ul className="text-xs text-neutral-500 space-y-1 list-disc list-inside">
+                                <li>LabVIEW Certification</li>
+                                <li>Baumer Safety Training</li>
+                                <li>Advanced Leadership Development</li>
+                                <li>Certified SolidWorks Professional (CSWP)</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
