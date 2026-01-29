@@ -5,10 +5,10 @@ import { FolderGit2, Calendar } from 'lucide-react';
 
 const projects = [
     {
-        title: "Eco-Friendly HVAC System",
-        description: "Designed a high-efficiency HVAC system for a commercial building, reducing energy consumption by 30%.",
-        date: "2023",
-        tags: ["SolidWorks", "Thermodynamics", "Sustainability"]
+        title: "Jenga Playing CNC Robot",
+        description: "Engineered a custom CNC robotic system featuring dual-Arduino control architecture and a Python-based serial protocol. DRI for all electronics, power distribution, and high-precision sensor integration.",
+        date: "2017",
+        tags: ["Robotics", "Python", "Mechatronics", "Arduino", "CNC Design"]
     },
     {
         title: "Robotic Arm Prototype",
