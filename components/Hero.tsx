@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-neutral-400 max-w-xl leading-relaxed">
-              I'm Scout, a Staff Mechanical Engineer. I bridge the gap between conceptual design and mass production, turning ambitious designs into scalable realities for top-tier tech companies. Oh, vibe coded this website too—because I am handy like that.
+              I'm Scout, a Staff Mechanical Engineer. I bridge the gap between conceptual design and mass production, turning ambitious designs into scalable realities for top-tier tech companies. Oh, and I vibe coded this website too—because I am handy like that.
             </p>
           </motion.div>
 
@@ -81,7 +81,7 @@ export const Hero: React.FC = () => {
             {/* Main Image Container */}
             <div className="absolute inset-8 rounded-full overflow-hidden bg-neutral-800 border-2 border-orange-500/20 shadow-2xl shadow-orange-500/10">
               <img
-                src="https://picsum.photos/800/800?grayscale"
+                src="/profile.jpg"
                 alt="Scout - Mechanical Engineer"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
               />

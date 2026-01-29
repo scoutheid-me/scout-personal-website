@@ -13,9 +13,11 @@ export const About: React.FC = () => {
                 <div className="space-y-6">
                     <div className="aspect-square rounded-2xl overflow-hidden bg-neutral-900 border border-neutral-800 relative group">
                         {/* Placeholder for real image */}
-                        <div className="absolute inset-0 bg-neutral-800 flex items-center justify-center text-neutral-600">
-                            <User size={64} />
-                        </div>
+                        <img
+                            src="/profile.jpg"
+                            alt="Scout Heid"
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        />
                     </div>
 
                     <div className="space-y-4">
