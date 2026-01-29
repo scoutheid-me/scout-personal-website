@@ -11,20 +11,11 @@ export const About: React.FC = () => {
                 className="grid md:grid-cols-[1fr_2fr] gap-12"
             >
                 <div className="space-y-6">
-                    {/* Primary Profile Image */}
-                    <div className="aspect-square rounded-2xl overflow-hidden bg-neutral-900 border border-neutral-800 relative group">
-                        <img
-                            src="/profile.jpg"
-                            alt="Scout Heid"
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-
-                    {/* Secondary Personal Photo (Unicorn) */}
+                    {/* Primary Personal Photo (Unicorn) */}
                     <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-neutral-900 border border-neutral-800 relative group">
                         <img
                             src="/about_unicorn.jpg"
-                            alt="Scout - Personal"
+                            alt="Scout Heid"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                     </div>
@@ -72,29 +63,23 @@ export const About: React.FC = () => {
                                 <div className="w-24 h-1.5 bg-orange-500 rounded-full" />
                             </div>
 
-                            <div className="grid gap-8 relative">
+                            <div className="grid gap-6 relative">
                                 {/* Masters */}
-                                <div className="space-y-2">
+                                <div className="space-y-1">
                                     <p className="text-xl text-white font-black tracking-wide">
                                         Master's of Engineering, Mechanical Engineering
                                     </p>
-                                    <div className="flex flex-wrap items-center gap-3 text-sm">
-                                        <span className="px-2 py-1 bg-neutral-800 rounded font-mono text-neutral-400">Graduated 2018</span>
-                                        <span className="w-1 h-1 rounded-full bg-orange-500/50" />
-                                        <span className="text-orange-500 font-medium italic">Focus: Autonomous Vehicle Controls + Path Planning</span>
-                                    </div>
+                                    <p className="text-sm font-mono text-neutral-400">Class of 2018</p>
                                 </div>
 
                                 {/* Bachelors */}
-                                <div className="space-y-2 pt-6 border-t border-neutral-800/80">
+                                <div className="space-y-1 pt-4 border-t border-neutral-800/80">
                                     <p className="text-lg text-neutral-200 font-bold">Bachelors of Science, Mechanical Engineering</p>
-                                    <p className="text-sm text-neutral-400 leading-relaxed max-w-xl">Focus: Product Design + Robotics/Manipulation</p>
                                 </div>
 
-                                {/* Minor - Elevated Section */}
-                                <div className="p-4 bg-orange-500/5 border border-orange-500/20 rounded-xl space-y-2">
-                                    <p className="text-md text-orange-400 font-extrabold tracking-wider">Minor in Electrical Engineering and Computer Science (EECS)</p>
-                                    <p className="text-xs text-neutral-500 font-medium uppercase tracking-widest">Bridging the gap between physical systems and computational intelligence.</p>
+                                {/* Minor */}
+                                <div className="space-y-1 pt-4 border-t border-neutral-800/80">
+                                    <p className="text-lg text-neutral-200 font-bold">Minor in Electrical Engineering and Computer Science (EECS)</p>
                                 </div>
                             </div>
                         </div>
@@ -108,10 +93,8 @@ export const About: React.FC = () => {
 
                             <div className="grid sm:grid-cols-2 gap-4">
                                 {[
-                                    { title: "LabVIEW Certification", detail: "Expertise in complex automated test systems and hardware interfacing." },
-                                    { title: "Baumer Safety Training", detail: "Certified in advanced industrial safety protocols and sensor clusters." },
-                                    { title: "Leadership Excellence", detail: "Professional management and strategic engineering lead certification." },
-                                    { title: "SolidWorks Professional (CSWP)", detail: "Advanced mechanical design, assembly verification, and DfM." }
+                                    { title: "LabVIEW Professional Certification", detail: "Expertise in complex automated test systems and hardware interfacing." },
+                                    { title: "Leadership Excellence", detail: "Harvard University: Advanced management and strategic engineering lead course." }
                                 ].map((cert, i) => (
                                     <div key={i} className="group/cert p-6 bg-neutral-900 border border-neutral-800 rounded-2xl hover:border-orange-500/40 transition-all duration-500 shadow-xl hover:-translate-y-1">
                                         <div className="flex items-center gap-3 mb-3">
