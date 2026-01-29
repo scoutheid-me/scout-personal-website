@@ -43,8 +43,22 @@ export const About: React.FC = () => {
                                 My approach to engineering is rooted in first principles thinking. Whether it's designing a consumer electronic device or a complex robotic system, I focus on simplicity, reliability, and manufacturability.
                             </p>
                             <p>
-                                When I'm not in CAD or the machine shop, you can find me hiking the trails of the Bay Area or experimenting with new coffee brewing methods.
+                                Beyond the lab, I am deeply immersed in the intersection of movement, strategy, and generative art. You’ll often find me on the dance floor—whether it’s the Stanford Viennese Ball or urban dance sessions in Palo Alto—exploring the technicality of Waltz and Swing.
                             </p>
+                            <p>
+                                When I’m not dancing, I’m navigating complex campaigns in Dungeons & Dragons or pushing the boundaries of AI artistry. I leverage tools like Midjourney for visual storytelling and explore the frontiers of sound through AI-composed music.
+                            </p>
+                            <div className="pt-2">
+                                <a
+                                    href="https://open.spotify.com/artist/5hOOHCrxQXxqx4pzzAVu04?si=vwNYOBbORxGG1G5W8Z__OQ"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 px-4 py-2 bg-[#1DB954]/10 border border-[#1DB954]/20 rounded-full text-[#1DB954] text-sm font-bold hover:bg-[#1DB954]/20 transition-all group"
+                                >
+                                    <span>Listen to my AI Music on Spotify</span>
+                                    <motion.span animate={{ x: [0, 4, 0] }} transition={{ repeat: Infinity, duration: 1.5 }}>→</motion.span>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
