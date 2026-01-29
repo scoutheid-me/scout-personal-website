@@ -17,10 +17,10 @@ const projects = [
         tags: ["Mechatronics", "Python", "Prototyping"]
     },
     {
-        title: "Automated Fluid Dispenser",
-        description: "Created a precision fluid dispensing unit for medical laboratories, ensuring <1% variance in volume.",
-        date: "2024",
-        tags: ["Medical Device", "Fluid Dynamics", "C++"]
+        title: "Self-Stabilizing RC Plane",
+        description: "Engineered a remote-controlled aircraft platform featuring an Arduino/Xbee wireless communication stack and myRIO integration. Developed a novel flywheel-based pitch correction system to dynamically prevent mid-flight stalling.",
+        date: "2016",
+        tags: ["Embedded Systems", "Aerodynamics", "Mechatronics", "Arduino", "Signal Processing"]
     }
 ];
 
