@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-neutral-400 max-w-xl leading-relaxed">
-              I'm Scout, a Staff Mechanical Engineer. I bridge the gap between conceptual physics and mass production, turning ambitious designs into scalable realities for top-tier tech companies.
+              I'm Scout, a Staff Mechanical Engineer. I bridge the gap between conceptual design and mass production, turning ambitious designs into scalable realities for top-tier tech companies. Oh, vibe coded this website too—because I am handy like that.
             </p>
           </motion.div>
 
