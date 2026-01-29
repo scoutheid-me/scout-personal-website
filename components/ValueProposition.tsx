@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layers, Zap, Users, ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { SpotlightCard } from './ui/SpotlightCard';
 
 export const ValueProposition: React.FC = () => {
@@ -46,9 +47,9 @@ export const ValueProposition: React.FC = () => {
                 <p className="text-neutral-400 leading-relaxed flex-grow">
                   {val.desc}
                 </p>
-                <div className="mt-6 flex items-center text-sm font-semibold text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
+                <Link to="/projects" className="mt-6 flex items-center text-sm font-semibold text-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -translate-x-4 group-hover:translate-x-0">
                   Learn more <ArrowUpRight className="ml-1 w-4 h-4" />
-                </div>
+                </Link>
               </div>
             </SpotlightCard>
           ))}

@@ -34,13 +34,14 @@ const experiences: ExperienceItem[] = [
   },
   {
     company: "Apple",
-    role: "Product Design Lead",
-    period: "2019 - 2023",
-    description: "Leading the enclosure design for next-gen Mac architecture. Responsible for thermal integration and structural integrity.",
+    role: "iPhone Power PD Intern",
+    period: "Jan 2017 – Aug 2017",
+    description: "Lead PD engineer for architecture and development of JDM program with 3rd party vendor. Oversaw entire assembly, product line, and processes through the complete design and production cycle.",
     achievements: [
-      "Reduced chassis weight by 18% using novel alloy composition.",
-      "Managed 3 Asia-based CMs for NPI builds.",
-      "Filed 4 patents on active cooling mechanisms."
+      "Led JDM program development, reviewing DFMs, mold flow analysis, and enforcing strict safety and design guidelines across vendor partnership.",
+      "Pioneered ultrasonic welding design optimization research using DOE methodology across cosmetic and weld quality metrics.",
+      "Drove cross-functional collaboration with China team to implement design improvements and manage corrective action testing.",
+      "Executed tolerance analysis and design verification to validate manufacturing and assembly requirements."
     ],
     logo: Apple,
     color: "text-neutral-200",
@@ -60,7 +61,7 @@ export const Experience: React.FC = () => {
             <p className="text-neutral-400">Delivering excellence at world-class organizations.</p>
           </div>
           <a
-            href="/Scout_Heid_Resume_2026.pdf" // Updated link
+            href="/Scout_Heid_Resume_2026.pdf"
             download="Scout_Heid_Resume_2026.pdf"
             className="text-white border-b border-orange-500 pb-1 hover:text-orange-500 transition-colors flex items-center gap-2"
           >
