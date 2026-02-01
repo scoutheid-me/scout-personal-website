@@ -49,7 +49,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     company: "Curtis Instruments",
-    role: "Device & System Architecture",
+    role: "Device & System Architecture Intern",
     period: "May 2016 – Aug 2016",
     description: "Architected and implemented a modular software framework for simultaneous control and data acquisition of 10+ hardware devices via a dynamic LabVIEW interface.",
     achievements: [

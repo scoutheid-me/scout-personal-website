@@ -1,8 +1,20 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { User, MapPin, Mail, Award } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
 
 export const About: React.FC = () => {
+    const { hash } = useLocation();
+    const [isHighlighted, setIsHighlighted] = React.useState(false);
+
+    React.useEffect(() => {
+        if (hash === '#email') {
+            setIsHighlighted(true);
+            const timer = setTimeout(() => setIsHighlighted(false), 3000);
+            return () => clearTimeout(timer);
+        }
+    }, [hash]);
+
     return (
         <div className="pt-32 pb-20 px-6 max-w-7xl mx-auto">
             <motion.div
@@ -25,10 +37,19 @@ export const About: React.FC = () => {
                             <MapPin size={20} className="text-orange-500" />
                             <span>San Jose, California</span>
                         </div>
-                        <div className="flex items-center gap-3 text-neutral-400">
+                        <motion.div
+                            id="email"
+                            animate={isHighlighted ? {
+                                scale: [1, 1.05, 1],
+                                backgroundColor: ["rgba(249, 115, 22, 0)", "rgba(249, 115, 22, 0.1)", "rgba(249, 115, 22, 0)"],
+                                borderColor: ["rgba(249, 115, 22, 0)", "rgba(249, 115, 22, 0.4)", "rgba(249, 115, 22, 0)"]
+                            } : {}}
+                            transition={{ duration: 1, repeat: 2 }}
+                            className="flex items-center gap-3 text-neutral-400 p-2 rounded-xl border border-transparent"
+                        >
                             <Mail size={20} className="text-orange-500" />
                             <a href="mailto:scoutheid95@gmail.com" className="hover:text-white transition-colors">scoutheid95@gmail.com</a>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
 

@@ -35,9 +35,9 @@ export const CTA: React.FC = () => {
         </div>
 
         <div className="mt-20 flex justify-center gap-8">
-          <SocialLink href="#" icon={Linkedin} label="LinkedIn" />
-          <SocialLink href="mailto:scout@example.com" icon={Mail} label="Email" />
-          <SocialLink href="#" icon={Github} label="Github" />
+          <SocialLink href="https://www.linkedin.com/in/scout-heid/" icon={Linkedin} label="LinkedIn" />
+          <SocialLink href="/about#email" icon={Mail} label="Email" />
+          <SocialLink href="/coding-projects" icon={Github} label="Github" />
         </div>
 
         <p className="mt-12 text-sm text-neutral-600">

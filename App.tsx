@@ -5,6 +5,7 @@ import Background from './components/Background';
 import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
 import { About } from './pages/About';
+import { CodingProjects } from './pages/CodingProjects';
 
 // ScrollToTop component to reset scroll position on route change
 const ScrollToTop = () => {
@@ -32,7 +33,6 @@ const AppContent: React.FC = () => {
             <Link to="/" className="hover:text-white transition-colors">Home</Link>
             <Link to="/projects" className="hover:text-white transition-colors">Projects</Link>
             <Link to="/about" className="hover:text-white transition-colors">About</Link>
-            <a href="#contact" className="hover:text-white transition-colors">Contact</a>
             <a
               href="/Scout_Heid_Resume_2026.pdf"
               download="Scout_Heid_Resume_2026.pdf"
@@ -50,6 +50,7 @@ const AppContent: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
+            <Route path="/coding-projects" element={<CodingProjects />} />
           </Routes>
         </AnimatePresence>
       </main>
