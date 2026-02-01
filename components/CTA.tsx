@@ -1,8 +1,10 @@
 import React from 'react';
 import { Mail, Linkedin, Github } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { Button } from './ui/Button';
 
 export const CTA: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <section id="contact" className="py-32 px-6 relative z-10 text-center overflow-hidden">
       {/* Background Glow */}
@@ -22,7 +24,7 @@ export const CTA: React.FC = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-          <Button icon onClick={() => window.location.href = 'mailto:scout@example.com'}>
+          <Button icon onClick={() => navigate('/about#email')}>
             Get in Touch
           </Button>
           <a
