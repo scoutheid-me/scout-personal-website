@@ -80,6 +80,17 @@ export const About: React.FC = () => {
                                     <motion.span animate={{ x: [0, 4, 0] }} transition={{ repeat: Infinity, duration: 1.5 }}>→</motion.span>
                                 </a>
                             </div>
+                            <div className="pt-2">
+                                <a
+                                    href="https://www.amazon.com/Sheeps-Special-Day-Scout-Heid/dp/B0BRBTP8ZC/ref=sr_1_1?crid=GQV8M435MKBQ&dib=eyJ2IjoiMSJ9.HuaRXstWWxayegnfA0AHZtHxIaiQHCYx5alca9LbMbKOjVM7-5MzgjpcZkuC4umc7ZcduQuQH0nX15dlcnp_WaiJHEAs6uR0i9v_0Rt5fCeN3aVfJvF7DN3BKgpvy-ewcmJo2cjCWogf73_hZ50TZyJe4TzAY8T2-eRR-GkDeB4F8mEJZjpa_-7kZaiucrb4lZrlyO3mRWPC5o9ilHRqEmB73bgsC0RNTgpaH-EUg3Y.dAgMMMApKQSndIpEQiSmzARykubJ9wQRXUxLwaUBRog&dib_tag=se&keywords=Sheep%27s+Special+day&qid=1776310816&sprefix=sheep%27s+special+%2Caps%2C458&sr=8-1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 px-4 py-2 bg-amber-500/10 border border-amber-500/20 rounded-full text-amber-400 text-sm font-bold hover:bg-amber-500/20 transition-all group"
+                                >
+                                    <span>📚 Published Author — Read <em>Sheep's Special Day</em> on Amazon</span>
+                                    <motion.span animate={{ x: [0, 4, 0] }} transition={{ repeat: Infinity, duration: 1.5 }}>→</motion.span>
+                                </a>
+                            </div>
                         </div>
                     </div>
 

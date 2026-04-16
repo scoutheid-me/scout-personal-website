@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-neutral-400 max-w-xl leading-relaxed">
-              I'm Scout, a Staff Mechanical Engineer. I bridge the gap between conceptual design and mass production, turning ambitious designs into scalable realities for top-tier tech companies. Oh, and I vibe coded this website too—because I am handy like that.
+              I'm Scout, a Staff Mechanical Engineer with more than 8 years of design experience. I have worked for big tech companies and startups focused on always challenging myself to grow. Oh, and I vibe coded this website too—because I am handy like that.
             </p>
           </motion.div>
 
@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
               <p className="text-sm text-neutral-500">Parts Shipped</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-white">$200M+</p>
+              <p className="text-3xl font-bold text-white">$100M+</p>
               <p className="text-sm text-neutral-500">Product Rev</p>
             </div>
             <div>
