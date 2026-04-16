@@ -113,19 +113,21 @@ export const About: React.FC = () => {
                                 {/* Masters */}
                                 <div className="space-y-1">
                                     <p className="text-xl text-white font-black tracking-wide">
-                                        Master's of Engineering, Mechanical Engineering
+                                        Master's of Engineering, Mechanical Engineering, Controls
                                     </p>
-                                    <p className="text-sm font-mono text-neutral-400">Class of 2018</p>
+                                    <p className="text-sm font-mono text-neutral-400">Class of 2019</p>
                                 </div>
 
                                 {/* Bachelors */}
                                 <div className="space-y-1 pt-4 border-t border-neutral-800/80">
                                     <p className="text-lg text-neutral-200 font-bold">Bachelors of Science, Mechanical Engineering</p>
+                                    <p className="text-sm font-mono text-neutral-400">Class of 2017</p>
                                 </div>
 
                                 {/* Minor */}
                                 <div className="space-y-1 pt-4 border-t border-neutral-800/80">
                                     <p className="text-lg text-neutral-200 font-bold">Minor in Electrical Engineering and Computer Science (EECS)</p>
+                                    <p className="text-sm font-mono text-neutral-400">Class of 2017</p>
                                 </div>
                             </div>
                         </div>
